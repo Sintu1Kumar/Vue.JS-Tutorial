@@ -1,9 +1,15 @@
-<script setup>
-// import Counter from "./components/Counter.vue";
-import Form from "./components/Form.vue";
+<template>
+  <User />
+</template>
+
+<script>
+import User from "./components/User.vue";
 </script>
 
-<template>
-  <!-- <Counter /> -->
-  <Form />
-</template>
+<style>
+* {
+  text-align: center;
+  background-color: gray;
+  color: white;
+}
+</style>
