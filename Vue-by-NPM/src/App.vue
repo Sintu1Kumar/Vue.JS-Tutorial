@@ -1,15 +1,14 @@
 <template>
-  <User />
+  <Home />
 </template>
 
 <script>
-import User from "./components/User.vue";
-</script>
+import Home from "./components/dycomponents/Home.vue";
 
-<style>
-* {
-  text-align: center;
-  background-color: gray;
-  color: white;
-}
-</style>
+export default {
+  name: "App",
+  components: {
+    Home,
+  },
+};
+</script>
