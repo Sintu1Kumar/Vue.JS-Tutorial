@@ -1,14 +1,14 @@
 <template>
-  <Home />
+  <PostData />
 </template>
 
 <script>
-import Home from "./components/dycomponents/Home.vue";
+import ApiCallPage from "./components/api/PostData.vue";
 
 export default {
   name: "App",
   components: {
-    Home,
+    PostData,
   },
 };
 </script>
